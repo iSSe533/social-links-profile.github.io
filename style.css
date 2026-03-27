@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 400px;
+    height: 550px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    /* justify-content: space-around; */
+}
+
+main > * {
+    margin-bottom: 12px;
+}
+
+.image {
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+span {
+    display: block;
+}
+
+.jessica {
+    font-size: 25px;
+    /* margin-bottom: 20px; */
+}
+
+.london {
+    color: #c5f82a;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+q {
+    margin-bottom: 18px;
+}
+
+.link {
+    width: 90%;
+    height: 80px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.link:hover {
+    background-color: #c5f82a;
+    color: #1f1f1f;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    main {
+        width: 350px;
+    }
+
+    .attribution {
+        font-size: 13px !important;
+    }
+}
+
